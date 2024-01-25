@@ -1,0 +1,418 @@
+* {
+    font-family: Segoe UI;
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: auto;
+    max-height: 58%;
+    margin-top: 20px;
+    margin-left: 70px;
+
+    display: flex;
+
+
+}
+
+
+header {
+    background-color: white;
+  
+    display: flex;
+   gap: 20px;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+ul {
+    align-items: center;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 35%;
+    display: flex;
+    padding: 10px;
+    flex: left;
+    gap: 45px;
+    list-style: none;
+
+}
+
+
+
+.lang {
+    margin-left: -2px;
+    margin-top: 2px;
+}
+
+.menu {
+    margin-left: 42%;
+    width: 456.02px;
+    text-decoration: none;
+}
+.menu li{
+    transition: cursor 0.2s ease-in-out, colo, 0.1s ease-in-out;
+}
+.menu li:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.op {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+
+
+}
+
+.reviews {
+    margin-top: 23px;
+}
+
+.op div {
+    display: flex;
+    flex-shrink: 0px;
+}
+
+.d1 {
+    margin-right: -55px;
+    font-size: 45px;
+    margin-left: 13%;
+}
+
+.op p {
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.but {
+
+    background-color: #00b6d1;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.but:hover {
+    background-color: #009eb6;
+}
+
+.ii {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 6%;
+}
+
+.ii h5 {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ii p {
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.boxes {
+    font-size: 13px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.boxes p{
+font-size: 13px;
+}
+.box1 {
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.33%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box2 {
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box3 {
+font-size: 13px;
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box4 {
+
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box5 {
+
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box6 {
+
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box7 {
+
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 3%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box7 h2,
+.box6 h2,
+.box5 h2,
+.box4 h2,
+.box3 h2,
+.box2 h2,
+.box1 h2 {
+    margin-top: 20px;
+}
+
+.bit32 {
+    background-color: #00b6d1;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.bit32:hover {
+    background-color: #009eb6;
+}
+
+.bit64 {
+    background-color: rgb(92, 184, 92);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.bit64:hover {
+    background-color: rgb(102, 199, 102);
+}
+
+.on {
+    margin-left: 20%;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.bottom{
+    background-color:rgb(34,34,34);
+    color: white;
+    width: 100%;
+}
+.toptxt{
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    padding-top: 90px;
+    margin-top: 90px;
+    
+}
+.low {
+  margin-right: 7%;
+  margin-top: 70px;
+  position: relative;
+}
+.signin{
+    border-radius: 10px;
+    background-color: white;
+   color: black;
+   text-align: center;
+   /* position: relative; */
+
+   padding:  30px;
+   padding-bottom: 70px;
+}
+.signin h5{
+  color: #00b6d1;
+font-size: 25px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+
+.signin input{
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 1px solid rgb(179, 179, 179);
+}
+.signin input:hover{
+    border: 1px solid rgb(179, 179, 179);
+    border-color: none;
+}
+.sign{
+    border-radius: 3px;
+    background-color: #00b6d1;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+
+    padding: 10px 35% 10px 35% ;
+
+}
+.last{
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 400;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+.z1,
+.z{
+    color: #00b6d1;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 80px;
+    gap: 70px;
+    text-decoration: none;
+ 
+}
+
+.footerbox1 h3{
+ font-weight: 500;
+ padding-bottom: 8px;
+}
+
+.footerbox1 ol li a{
+text-decoration: none;
+color: rgb(83, 83, 83);
+font-size: 15px;
+}
+.footerbox1 ol li{
+    list-style: none;
+
+    color: #009eb6;
+}
+.footerbox2{
+    margin-left: 5%;
+
+}
+.footerbox2 p{
+    font-size: 15px;
+    /* position: relative; */
+    resize: 40px;
+    margin-right: 60px;
+}
+.footerbox2 h3{
+    font-weight: 500;
+    padding-bottom: 8px;
+   }
+
+   .signup{
+    border-radius: 10px;
+    background-color: white;
+   color: black;
+   text-align: center;
+  margin-left: -140px;
+
+   padding:  30px;
+ 
+}
+
+.signup input{
+    margin-top: 5px;
+    width: 210px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 1px solid rgb(179, 179, 179);
+}
+.signin input:hover{
+    border: 1px solid rgb(179, 179, 179);
+    border-color: none;
+}
+.sign1{
+    border-radius: 3px;
+    background-color: #00b6d1;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+
+    padding: 5px 70px 5px 70px ;
+
+}
+.sign1:hover{
+    background-color: #009eb6;
+}
